@@ -1,6 +1,6 @@
 {
   "name": "eModbus",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "keywords": "Arduino, ESP32, Modbus, RTU, ASCII, ModbusASCII, ModbusRTU, ModbusTCP",
   "description": "ModbusRTU, ModbusASCII and ModbusTCP functions for ESP32",
   "homepage": "https://emodbus.github.io",
@@ -25,15 +25,15 @@
   },
   "dependencies": [
     {
-      "owner": "me-no-dev",
+      "owner": "mathieucarbou",
       "name": "AsyncTCP",
-      "version": "*",
+      "version": "^3.2.12",
       "platforms": ["espressif32"]
     },
     {
-      "owner": "me-no-dev",
-      "name": "ESPAsyncTCP",
-      "version": "*",
+      "owner": "esphome",
+      "name": "ESPAsyncTCP-esphome",
+      "version": "^2.0.0",
       "platforms": ["espressif8266"]
     },
     {
