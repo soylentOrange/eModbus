@@ -1,6 +1,4 @@
 
-<img src=https://github.com/eModbus/eModbus/blob/master/eModbusLogo.png width="33%" alt="eModbus">
-
 **Read the docs at http://emodbus.github.io!**
 
 ![eModbus](https://github.com/eModbus/eModbus/workflows/Building/badge.svg)
@@ -24,3 +22,7 @@ This has been developed by enthusiasts. While we do our utmost best to make robu
 We do welcome any ideas, suggestions, bug reports or questions. Please use the "[Issues](https://github.com/eModbus/eModbus/issues)" tab to report bugs and request new features and visit the "[Discussions](https://github.com/eModbus/eModbus/discussions)" tab for all else.
 
 Have fun!
+
+## Changelog
+
+Changed the dependency of AsyncTCP and ESPAsyncTCP from me-no-dev to mathieucarbou/AsyncTCP and esphome/ESPAsyncTCP-esphome for using the library in openDTU.
