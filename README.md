@@ -1,8 +1,6 @@
 
 **Read the docs at http://emodbus.github.io!**
 
-![eModbus](https://github.com/eModbus/eModbus/workflows/Building/badge.svg)
-
 This is a library to provide Modbus client (formerly known as master), server (formerly slave) and bridge/gateway functionalities for Modbus RTU, ASCII and TCP protocols.
 
 For Modbus protocol specifications, please refer to the [Modbus.org site](https://www.modbus.org/specs.php)!
